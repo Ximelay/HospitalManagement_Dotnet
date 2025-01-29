@@ -1,0 +1,17 @@
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Application.deps.json
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Application.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Application.pdb
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Domain.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Domain.pdb
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\HospitalManagement.Application.csproj.AssemblyReference.cache
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\HospitalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\HospitalManagement.Application.AssemblyInfoInputs.cache
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\HospitalManagement.Application.AssemblyInfo.cs
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\HospitalManagement.Application.csproj.CoreCompileInputs.cache
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\Hospital.86C33EBC.Up2Date
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\HospitalManagement.Application.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\refint\HospitalManagement.Application.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\HospitalManagement.Application.pdb
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\ref\HospitalManagement.Application.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Infrastructure.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Infrastructure.pdb
