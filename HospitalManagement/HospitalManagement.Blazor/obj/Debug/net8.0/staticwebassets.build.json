@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pQHohj/vYW+AvuacTIf+CrBZLW9r/z6ZzZZimKM+eEY=",
+  "Hash": "IzonsdDvVPmY1yhUkw0kvxvsdM4AwN1ECd4YR7pemBg=",
   "Source": "HospitalManagement.Blazor",
   "BasePath": "_content/HospitalManagement.Blazor",
   "Mode": "Default",
@@ -681,7 +681,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:24:08 GMT"
+          "Value": "Thu, 30 Jan 2025 06:17:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -718,7 +718,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:24:08 GMT"
+          "Value": "Thu, 30 Jan 2025 06:17:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -763,7 +763,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:24:08 GMT"
+          "Value": "Thu, 30 Jan 2025 06:17:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -808,7 +808,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:24:08 GMT"
+          "Value": "Thu, 30 Jan 2025 06:17:48 GMT"
         },
         {
           "Name": "Cache-Control",

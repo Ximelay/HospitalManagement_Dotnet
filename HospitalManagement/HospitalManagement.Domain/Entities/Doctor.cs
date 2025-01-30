@@ -14,6 +14,6 @@ namespace HospitalManagement.Domain.Entities
         public string? MiddleName { get; set; }
 
         public int SpecializationId { get; set; }
-        public Specialization Specialization { get; set; }
+        public Specialization? Specialization { get; set; }
     }
 }

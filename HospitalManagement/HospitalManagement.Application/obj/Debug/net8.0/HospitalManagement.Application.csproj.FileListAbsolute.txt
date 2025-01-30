@@ -15,3 +15,4 @@ C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManageme
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\ref\HospitalManagement.Application.dll
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Infrastructure.dll
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\bin\Debug\net8.0\HospitalManagement.Infrastructure.pdb
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Application\obj\Debug\net8.0\HospitalManagement.Application.sourcelink.json

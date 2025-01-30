@@ -7,3 +7,4 @@ C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManageme
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\staticwebassets.build.json
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\staticwebassets.build.json

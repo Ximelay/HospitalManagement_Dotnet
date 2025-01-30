@@ -12,7 +12,7 @@ namespace HospitalManagement.Domain.Entities
         public DateTime IssueDate { get; set; }
 
         public int PatientId { get; set; }
-        public Patient Patient { get; set; }
+        public Patient? Patient { get; set; }
 
         public ICollection<MedicalHistory> MedicalHistories { get; set; } = new List<MedicalHistory>();
     }

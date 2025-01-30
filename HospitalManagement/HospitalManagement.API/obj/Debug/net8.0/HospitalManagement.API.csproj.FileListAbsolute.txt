@@ -114,4 +114,4 @@ C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManageme
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\HospitalManagement.API.pdb
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\HospitalManagement.API.genruntimeconfig.cache
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\ref\HospitalManagement.API.dll
-C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.API\obj\Debug\net8.0\HospitalManagement.API.sourcelink.json

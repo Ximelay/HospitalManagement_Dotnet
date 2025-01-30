@@ -36,6 +36,23 @@ namespace HospitalManagement.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Patient patient)
         {
+            if (patient == null) return BadRequest("Patient data is required");
+
+            // Проверка адресов
+            if (patient.Addresses == null || patient.Addresses.Count == 0)
+                return BadRequest("At least one address is required");
+
+            //Проверка на существование адреса и типа адреса
+            foreach (var address in patient.Addresses)
+            {
+                if (address.AddressTypeId == 0 || string.IsNullOrEmpty(address.FullAddress))
+                {
+                    return BadRequest("AddressTypeId and FullAddress are required for each address");
+                }
+            }
+
+            if (patient.Passport == null) return BadRequest("Passport data is required");
+
             var newPatient = await _patientService.CreatePatientAsync(patient);
             return CreatedAtAction(nameof(GetById), new { id = newPatient.Id }, newPatient);
         }
@@ -44,6 +61,21 @@ namespace HospitalManagement.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Patient updatePatient)
         {
+            if (updatePatient == null) return BadRequest("Patient data is required.");
+
+            // Проверка адресов
+            if (updatePatient.Addresses == null || updatePatient.Addresses.Count == 0)
+                return BadRequest("At least one address is required");
+
+            // Проверяем, что тип адреса и полный адрес присутствуют
+            foreach (var address in updatePatient.Addresses)
+            {
+                if (address.AddressTypeId == 0 || string.IsNullOrEmpty(address.FullAddress))
+                {
+                    return BadRequest("AddressTypeId and FullAddress are required for each address.");
+                }
+            }
+
             var patient = await _patientService.UpdatePatientAsync(id, updatePatient);
             if (patient == null) return NotFound();
             return Ok(patient);

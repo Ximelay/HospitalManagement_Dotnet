@@ -9,3 +9,4 @@ C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManageme
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Domain\obj\Debug\net8.0\refint\HospitalManagement.Domain.dll
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Domain\obj\Debug\net8.0\HospitalManagement.Domain.pdb
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Domain\obj\Debug\net8.0\ref\HospitalManagement.Domain.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Domain\obj\Debug\net8.0\HospitalManagement.Domain.sourcelink.json
