@@ -13,9 +13,9 @@ namespace HospitalManagement.Domain.Entities
         public string FullAddress { get; set; } = string.Empty;
 
         public int PatientId { get; set; }
-        public Patient Patient { get; set; }
+        public Patient? Patient { get; set; }
 
         public int AddressTypeId { get; set; }
-        public AddressType AddressTypeEntity { get; set; }
+        public AddressType? AddressTypeEntity { get; set; }
     }
 }

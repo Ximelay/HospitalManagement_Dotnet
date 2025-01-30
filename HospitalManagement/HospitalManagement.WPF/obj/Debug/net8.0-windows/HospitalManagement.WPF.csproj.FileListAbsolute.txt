@@ -47,3 +47,4 @@ C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManageme
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\HospitalManagement.WPF.pdb
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\HospitalManagement.WPF.genruntimeconfig.cache
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\ref\HospitalManagement.WPF.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\HospitalManagement.WPF.sourcelink.json

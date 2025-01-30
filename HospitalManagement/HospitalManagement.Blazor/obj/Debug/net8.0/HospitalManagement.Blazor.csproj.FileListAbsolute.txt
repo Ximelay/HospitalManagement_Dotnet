@@ -60,3 +60,4 @@ C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManageme
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Blazor\obj\Debug\net8.0\HospitalManagement.Blazor.pdb
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Blazor\obj\Debug\net8.0\HospitalManagement.Blazor.genruntimeconfig.cache
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Blazor\obj\Debug\net8.0\ref\HospitalManagement.Blazor.dll
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.Blazor\obj\Debug\net8.0\HospitalManagement.Blazor.sourcelink.json

@@ -13,6 +13,6 @@ namespace HospitalManagement.Domain.Entities
         public DateTime IssueDate { get; set; }
 
         public int PatientId { get; set; }
-        public Patient Patient { get; set; }
+        public Patient? Patient { get; set; }
     }
 }

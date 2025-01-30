@@ -19,9 +19,9 @@ namespace HospitalManagement.Domain.Entities
         public string TelephoneNumber { get; set; } = string.Empty;
         public string? EmailAddress { get; set; }
 
-        // Убедись, что здесь только ID рабочего места
-        public int WorkplaceId { get; set; }  // Связь с Workplace по ID
-        public Workplace? Workplace { get; set; }  // Навигационное свойство
+        
+        public int WorkplaceId { get; set; }  
+        public Workplace? Workplace { get; set; }  
 
         public ICollection<Address> Addresses { get; set; } = new List<Address>();
         public MedicalCard? MedicalCard { get; set; }
