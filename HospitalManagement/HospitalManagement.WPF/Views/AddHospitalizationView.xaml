@@ -1,0 +1,19 @@
+﻿<Window x:Class="HospitalManagement.WPF.Views.AddHospitalizationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить госпитализацию" Height="300" Width="400">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Дата госпитализации" />
+            <DatePicker SelectedDate="{Binding Hospitalization.HospitalizationDate}" />
+
+            <TextBlock Text="Причина" />
+            <ComboBox ItemsSource="{Binding Reasons}" DisplayMemberPath="ReasonName" SelectedItem="{Binding Hospitalization.HospitalizationReason}" />
+
+            <TextBlock Text="Описание состояния" />
+            <TextBox Text="{Binding Hospitalization.ConditionDescription}" />
+
+            <Button Content="Сохранить" Command="{Binding SaveCommand}" />
+        </StackPanel>
+    </Grid>
+</Window>

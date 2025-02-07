@@ -1,24 +1,21 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <ItemGroup>
-    <ProjectReference Include="..\HospitalManagement.API\HospitalManagement.API.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="9.0.1" />
-    <PackageReference Include="MudBlazor" Version="6.2.0" />
-    <PackageReference Include="Refit" Version="6.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Pages\" />
-  </ItemGroup>
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.12" PrivateAssets="all" />
+    <PackageReference Include="QRCoder" Version="1.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HospitalManagement.Application\HospitalManagement.Application.csproj" />
+    <ProjectReference Include="..\HospitalManagement.Domain\HospitalManagement.Domain.csproj" />
+  </ItemGroup>
+
 
 </Project>

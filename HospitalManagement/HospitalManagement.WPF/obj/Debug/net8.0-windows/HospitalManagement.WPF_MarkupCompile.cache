@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\App.xaml
-11407045341
+41497794246
 
-41795336464
+12179580828
 351-385474316
-MainWindow.xaml;
+MainWindow.xaml;Views\AddHospitalizationView.xaml;Views\EditConditionView.xaml;Views\HospitalizationView.xaml;
 
 False
 

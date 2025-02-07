@@ -1,0 +1,27 @@
+﻿@* @page "/patients"
+@inject IPatientService PatientService
+
+<h3>Список пациентов</h3>
+
+@if (patients == null)
+{
+	<p>Загрузка...</p>
+}
+else
+{
+	<ul>
+		@foreach (var patient in patients)
+		{
+			<li>@patient.FirstName @patient.LastName</li>
+		}
+	</ul>
+}
+
+@code {
+	private IEnumerable<Patient>? patients;
+
+	protected override async Task OnInitializedAsync()
+	{
+		patients = await PatientService.GetAllPatientsAsync();
+	}
+} *@
