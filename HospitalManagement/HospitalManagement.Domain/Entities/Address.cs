@@ -9,7 +9,7 @@ namespace HospitalManagement.Domain.Entities
     public class Address
     {
         public int Id { get; set; }
-        public string AddressType { get; set; } = string.Empty;
+        //public string AddressType { get; set; } = string.Empty;
         public string FullAddress { get; set; } = string.Empty;
 
         public int PatientId { get; set; }

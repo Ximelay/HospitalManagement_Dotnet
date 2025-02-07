@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using HospitalManagement.Application.Interfaces;
 using HospitalManagement.Domain.Entities;
+using Microsoft.Extensions.Logging;
 
 namespace HospitalManagement.API.Controllers
 {
@@ -9,10 +10,12 @@ namespace HospitalManagement.API.Controllers
     public class PatientsController : Controller
     {
         public readonly IPatientService _patientService;
+        private readonly ILogger<PatientsController> _logger;
 
-        public PatientsController(IPatientService patientService)
+        public PatientsController(IPatientService patientService, ILogger<PatientsController> logger)
         {
             _patientService = patientService;
+            _logger = logger;
         }
 
         // Получение всех пациентов
@@ -36,25 +39,56 @@ namespace HospitalManagement.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Patient patient)
         {
-            if (patient == null) return BadRequest("Patient data is required");
+            if (patient == null)
+            {
+                _logger.LogError("Received a null patient object.");
+                return BadRequest("Patient data is required");
+            }
 
-            // Проверка адресов
-            if (patient.Addresses == null || patient.Addresses.Count == 0)
-                return BadRequest("At least one address is required");
+            _logger.LogInformation($"Received patient data: {patient.FirstName} {patient.LastName}");
 
-            //Проверка на существование адреса и типа адреса
-            foreach (var address in patient.Addresses)
+            if (!ValidateAddresses(patient.Addresses))
+            {
+                return BadRequest("AddressTypeId and FullAddress are required for each address");
+            }
+
+            if (patient.Passport == null)
+            {
+                _logger.LogWarning("Patient has no passport data.");
+                return BadRequest("Passport data is required");
+            }
+
+            try
+            {
+                var newPatient = await _patientService.CreatePatientAsync(patient);
+                _logger.LogInformation($"Patient created successfully: {newPatient.Id}");
+                return CreatedAtAction(nameof(GetById), new { id = newPatient.Id }, newPatient);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error creating patient: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        private bool ValidateAddresses(ICollection<Address> addresses)
+        {
+            if (addresses == null || addresses.Count == 0)
+            {
+                _logger.LogWarning("Patient has no addresses.");
+                return false;
+            }
+
+            foreach (var address in addresses)
             {
                 if (address.AddressTypeId == 0 || string.IsNullOrEmpty(address.FullAddress))
                 {
-                    return BadRequest("AddressTypeId and FullAddress are required for each address");
+                    _logger.LogWarning("Address missing required fields: AddressTypeId or FullAddress.");
+                    return false;
                 }
             }
 
-            if (patient.Passport == null) return BadRequest("Passport data is required");
-
-            var newPatient = await _patientService.CreatePatientAsync(patient);
-            return CreatedAtAction(nameof(GetById), new { id = newPatient.Id }, newPatient);
+            return true;
         }
 
         // Обновить данные пациента

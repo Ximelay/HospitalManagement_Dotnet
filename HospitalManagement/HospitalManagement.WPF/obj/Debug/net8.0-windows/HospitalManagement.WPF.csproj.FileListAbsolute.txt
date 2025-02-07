@@ -48,3 +48,9 @@ C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManageme
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\HospitalManagement.WPF.genruntimeconfig.cache
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\ref\HospitalManagement.WPF.dll
 C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\HospitalManagement.WPF.sourcelink.json
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\Views\AddHospitalizationView.baml
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\Views\HospitalizationView.baml
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\Views\AddHospitalizationView.g.cs
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\Views\HospitalizationView.g.cs
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\Views\EditConditionView.baml
+C:\Projects\Visual Studio\HospitalManagement\HospitalManagement\HospitalManagement.WPF\obj\Debug\net8.0-windows\Views\EditConditionView.g.cs

@@ -30,10 +30,6 @@ namespace HospitalManagement.Infrastructure.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AddressType")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<int>("AddressTypeId")
                         .HasColumnType("int");
 
@@ -158,7 +154,7 @@ namespace HospitalManagement.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("HospitalizationReason");
+                    b.ToTable("HospitalizationReasons");
                 });
 
             modelBuilder.Entity("HospitalManagement.Domain.Entities.MedicalCard", b =>
@@ -290,6 +286,7 @@ namespace HospitalManagement.Infrastructure.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("EmailAddress")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("FirstName")
@@ -532,7 +529,8 @@ namespace HospitalManagement.Infrastructure.Migrations
 
                     b.Navigation("MedicalCard");
 
-                    b.Navigation("Passport");
+                    b.Navigation("Passport")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("HospitalManagement.Domain.Entities.ProcedureType", b =>

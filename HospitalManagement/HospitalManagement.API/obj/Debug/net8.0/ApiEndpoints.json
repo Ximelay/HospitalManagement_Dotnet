@@ -79,6 +79,105 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HospitalManagement.API.Controllers.HospitalizationReasonsController",
+    "Method": "GetAll",
+    "RelativePath": "api/HospitalizationReasons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[HospitalManagement.Domain.Entities.HospitalizationReason, HospitalManagement.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HospitalManagement.API.Controllers.HospitalizationsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Hospitalizations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.API.Controllers.HospitalizationsController",
+    "Method": "Create",
+    "RelativePath": "api/Hospitalizations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hospitalization",
+        "Type": "HospitalManagement.Domain.Entities.Hospitalization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.API.Controllers.HospitalizationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Hospitalizations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.API.Controllers.HospitalizationsController",
+    "Method": "UpdateCondition",
+    "RelativePath": "api/Hospitalizations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "conditionDescription",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.API.Controllers.HospitalizationsController",
+    "Method": "Discharge",
+    "RelativePath": "api/Hospitalizations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HospitalManagement.API.Controllers.MedicalCardsController",
     "Method": "GetAll",
     "RelativePath": "api/MedicalCards",

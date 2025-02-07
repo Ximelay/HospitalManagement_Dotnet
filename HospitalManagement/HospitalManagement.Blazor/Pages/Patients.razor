@@ -1,0 +1,50 @@
+﻿@* @page "/patients"
+@inject IPatientService patientService
+
+<h3>Список пациентов</h3>
+
+@if (patients == null)
+{
+	<p>Загрузка...</p>
+}
+else
+{
+	<table class="table">
+		<thead>
+		<tr>
+			<th>ID</th>
+			<th>ФИО</th>
+			<th>Телефон</th>
+			<th>Действия</th>
+		</tr>
+		</thead>
+		<tbody>
+		@foreach (var patient in patients)
+		{
+			<tr>
+				<td>@patient.Id</td>
+				<td>@patient.FirstName @patient.LastName</td>
+				<td>@patient.TelephoneNumber</td>
+				<td>
+					<button class="btn btn-danger" @onclick="() => DeletePatient(patient.Id)">Удалить</button>
+				</td>
+			</tr>
+		}
+		</tbody>
+	</table>
+}
+
+@code {
+	private IEnumerable<Patient>? patients;
+
+	protected override async Task OnInitializedAsync()
+	{
+		patients = await patientService.GetAllPatientsAsync();
+	}
+
+	private async Task DeletePatient(int id)
+	{
+		await patientService.DeletePatientAsync(id);
+		patients = await patientService.GetAllPatientsAsync();
+	}
+} *@

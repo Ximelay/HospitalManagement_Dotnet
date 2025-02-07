@@ -1,0 +1,194 @@
+﻿@page "/"
+@using HospitalManagement.Domain.Entities
+@using HospitalManagement.Application.Interfaces
+@using System.IO
+@using QRCoder
+@inject IJSRuntime JS
+@inject IPatientService patientService
+
+<h3 class="mb-4">Регистрация пациентов</h3>
+
+
+<EditForm Model="@newPatient" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                <!-- ФИО -->
+                <div class="col-md-4">
+	                <label>ФИО:</label>
+	                <InputText class="form-control mb-2" @bind-Value="newPatient.FirstName" placeholder="Имя" />
+	                <InputText class="form-control mb-2" @bind-Value="newPatient.LastName" placeholder="Фамилия" />
+	                <InputText class="form-control mb-2" @bind-Value="newPatient.MiddleName" placeholder="Отчество" />
+                </div>
+
+                <!-- Полис, Дата рождения, Email -->
+                <div class="col-md-4">
+	                <label>Номер страхового полиса:</label>
+	                <InputText class="form-control" @bind-Value="newPatient.InsurancePolicyNumber" @oninput="@(e => JS.InvokeVoidAsync("filterDigits", e))" />
+
+	                <label>Дата рождения:</label>
+	                <InputDate class="form-control mb-2" @bind-Value="newPatient.BirthDate" />
+
+	                <label>Электронный адрес:</label>
+	                <InputText class="form-control mb-2" @bind-Value="newPatient.EmailAddress" />
+                </div>
+
+                <!-- Телефон, Паспорт -->
+                <div class="col-md-4">
+	                <label>Телефонный номер:</label>
+	                <InputText class="form-control" @bind-Value="newPatient.TelephoneNumber" @oninput="@(e => JS.InvokeVoidAsync("filterPhone", e))" />
+
+	                <label>Паспортные данные:</label>
+	                <InputText class="form-control" @bind-Value="newPatient.Passport.SeriesNumber" @oninput="@(e => JS.InvokeVoidAsync("filterPassport", e))" />
+                </div>
+            </div>
+
+            <!-- Место работы -->
+            <div class="form-group">
+                <label>Место работы:</label>
+                <InputText class="form-control mb-2" @bind-Value="newPatient.Workplace.WorkplaceName" />
+            </div>
+
+            <!-- Адрес проживания -->
+            <div class="form-group">
+                <label>Адрес проживания:</label>
+                <InputText class="form-control mb-2" @bind-Value="newPatient.Addresses.First().FullAddress" />
+            </div>
+
+            <!-- Тип адреса -->
+            <div class="form-group">
+                <label>Тип адреса:</label>
+                <InputSelect class="form-control mb-2" @bind-Value="newPatient.Addresses.First().AddressTypeId">
+                    <option value="0">Выберите тип</option>
+                    <option value="1">Дом</option>
+                    <option value="2">Офис</option>
+                </InputSelect>
+            </div>
+
+            <!-- Пол -->
+            <div class="form-group">
+                <label>Пол:</label>
+                <InputSelect class="form-control mb-2" @bind-Value="newPatient.Gender">
+                    <option value="Мужской">Мужской</option>
+                    <option value="Женский">Женский</option>
+                </InputSelect>
+            </div>
+
+            <button type="submit" class="btn btn-primary mt-3">Сохранить изменения</button>
+        </div>
+
+        <!-- QR-Код -->
+        <div class="col-md-4 text-center">
+            <label>QR-код мед. карты</label>
+            <div class="qr-container">
+                @if (!string.IsNullOrEmpty(QrCodeBase64))
+                {
+                    <img src="@QrCodeBase64" class="qr-code" />
+                }
+            </div>
+            <button type="button" class="btn btn-secondary mt-3" @onclick="GenerateQRCode">Загрузить новый QR-код</button>
+        </div>
+    </div>
+
+    <!-- Сообщение об успехе -->
+    @if (!string.IsNullOrEmpty(successMessage))
+    {
+        <div class="alert alert-success mt-3" role="alert">@successMessage</div>
+    }
+</EditForm>
+
+<!-- Кнопки печати -->
+<div class="mt-4">
+    <button class="btn btn-outline-secondary" @onclick="PrintConsentForm">Распечатать согласие на обработку данных</button>
+    <button class="btn btn-outline-secondary ms-2" @onclick="PrintMedicalAgreement">Распечатать договор мед. услуг</button>
+</div>
+
+@code {
+    private Patient newPatient = new Patient
+        {
+            Passport = new Passport(),
+            Workplace = new Workplace(),
+            Addresses = new List<Address> { new Address { AddressTypeId = 1, FullAddress = "Москва" } },
+            Gender = "Мужской"
+        };
+
+       private Patient originalPatient = new Patient(); // Храним начальные данные
+
+    private string successMessage = string.Empty;
+    private string QrCodeBase64 = string.Empty;
+
+    private bool IsFormChanged()
+    {
+	    return newPatient.FirstName != originalPatient.FirstName ||
+	           newPatient.LastName != originalPatient.LastName ||
+	           newPatient.MiddleName != originalPatient.MiddleName ||
+	           newPatient.BirthDate != originalPatient.BirthDate ||
+	           newPatient.Gender != originalPatient.Gender ||
+	           newPatient.InsurancePolicyNumber != originalPatient.InsurancePolicyNumber ||
+	           newPatient.TelephoneNumber != originalPatient.TelephoneNumber ||
+	           newPatient.EmailAddress != originalPatient.EmailAddress ||
+	           newPatient.Workplace.WorkplaceName != originalPatient.Workplace.WorkplaceName ||
+	           newPatient.Addresses.First().FullAddress != originalPatient.Addresses.First().FullAddress ||
+	           newPatient.Passport?.SeriesNumber != originalPatient.Passport?.SeriesNumber;
+    }
+
+    private async Task HandleValidSubmit()
+    {
+	    if (!IsFormChanged())
+	    {
+		    successMessage = "Ошибка: Вы не внесли никаких изменений!";
+		    return;
+	    }
+
+	    try
+	    {
+		    await patientService.CreatePatientAsync(newPatient);
+		    successMessage = "Пациент успешно добавлен!";
+	    }
+	    catch (Exception ex)
+	    {
+		    successMessage = $"Ошибка: {ex.Message}";
+		    Console.WriteLine(ex.Message);
+	    }
+    }
+
+    private void GenerateQRCode()
+    {
+	    if (string.IsNullOrWhiteSpace(newPatient.InsurancePolicyNumber))
+	    {
+		    successMessage = "Ошибка: номер страхового полиса отсутствует!";
+		    return;
+	    }
+
+	    try
+	    {
+		    var qrGenerator = new QRCodeGenerator();
+		    var qrData = qrGenerator.CreateQrCode(newPatient.InsurancePolicyNumber, QRCodeGenerator.ECCLevel.Q);
+		    var qrCode = new SvgQRCode(qrData);
+
+		    // Генерируем SVG-код для QR-кода
+		    string svg = qrCode.GetGraphic(10);
+
+		    // Преобразуем в data URI для отображения в <img>
+		    QrCodeBase64 = $"data:image/svg+xml;base64,{Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(svg))}";
+	    }
+	    catch (Exception ex)
+	    {
+		    successMessage = $"Ошибка генерации QR-кода: {ex.Message}";
+		    Console.WriteLine(ex.Message);
+	    }
+    }
+
+    private void PrintConsentForm()
+    {
+        Console.WriteLine("Печать согласия на обработку данных...");
+    }
+
+    private void PrintMedicalAgreement()
+    {
+        Console.WriteLine("Печать договора медицинских услуг...");
+    }
+}

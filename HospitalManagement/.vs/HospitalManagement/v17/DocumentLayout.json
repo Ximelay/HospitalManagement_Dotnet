@@ -3,112 +3,95 @@
   "WorkspaceRootPath": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\medicalcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\medicalcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\hospitalization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\hospitalization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\proceduretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\proceduretype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\passport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\passport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\addresstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\addresstype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\workplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\workplace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\controllers\\medicalcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\medicalcardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\medicalprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\medicalprocedure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\medicalhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\services\\hospitalizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\services\\hospitalizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02624178-C4DA-489A-9133-8A03F99949E2}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.infrastructure\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02624178-C4DA-489A-9133-8A03F99949E2}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|solutionrelative:hospitalmanagement.infrastructure\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\controllers\\specializationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\specializationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\services\\hospitalizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\hospitalizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\hospitalizationreason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\hospitalizationreason.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\services\\medicalcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\medicalcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\controllers\\hospitalizationreasonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\hospitalizationreasonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\services\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\interfaces\\ihospitalizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\interfaces\\ihospitalizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\interfaces\\imedicalcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\interfaces\\imedicalcardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\controllers\\hospitalizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\hospitalizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\interfaces\\ispecializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\interfaces\\ispecializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\viewmodels\\hospitalizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\viewmodels\\hospitalizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.application\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B9A4AE2-5958-47E4-9560-004CCFCAA303}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.domain\\entities\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE02D6D4-174B-4276-B41A-693CEC02AE94}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\viewmodels\\addhospitalizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\viewmodels\\addhospitalizationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2D6BC42-62EE-481F-A924-9569934CECE5}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\views\\hospitalizationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\views\\hospitalizationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\views\\hospitalizationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\views\\hospitalizationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\viewmodels\\editconditionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\viewmodels\\editconditionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\views\\editconditionview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\views\\editconditionview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\views\\editconditionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\views\\editconditionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\views\\addhospitalizationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\views\\addhospitalizationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|c:\\projects\\visual studio\\hospitalmanagement\\hospitalmanagement\\hospitalmanagement.wpf\\views\\addhospitalizationview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6AAC7356-D80C-47DE-B6FB-3B3578EBA002}|HospitalManagement.WPF\\HospitalManagement.WPF.csproj|solutionrelative:hospitalmanagement.wpf\\views\\addhospitalizationview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,7 +101,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,338 +113,275 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Hospitalization.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Hospitalization.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Hospitalization.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Hospitalization.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Hospitalization.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA4wBEAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "HospitalizationService.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Services\\HospitalizationService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\Services\\HospitalizationService.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Services\\HospitalizationService.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\Services\\HospitalizationService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:04:59.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProcedureType.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\ProcedureType.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\ProcedureType.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\ProcedureType.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\ProcedureType.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T06:04:54.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddressType.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\AddressType.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\AddressType.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\AddressType.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\AddressType.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T05:42:09.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Address.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Address.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Address.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Address.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA3wBIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T05:41:57.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Program.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.API\\Program.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Program.cs",
-              "RelativeToolTip": "HospitalManagement.API\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T14:33:37.056Z",
+              "WhenOpened": "2025-02-03T10:58:05.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MedicalCard.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\MedicalCard.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\MedicalCard.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\MedicalCard.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\MedicalCard.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:06:51.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Patient.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Patient.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Patient.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Patient.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwBsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T14:28:33.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Workplace.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Workplace.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Workplace.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Workplace.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Workplace.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T14:55:24.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PatientsController.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\PatientsController.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\PatientsController.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\PatientsController.cs",
-              "RelativeToolTip": "HospitalManagement.API\\Controllers\\PatientsController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAUwEwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T14:34:54.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Passport.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Passport.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Passport.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Passport.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Passport.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T05:27:04.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MedicalCardsController.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\MedicalCardsController.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\MedicalCardsController.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\MedicalCardsController.cs",
-              "RelativeToolTip": "HospitalManagement.API\\Controllers\\MedicalCardsController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAUwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:15:09.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MedicalHistory.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\MedicalHistory.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\MedicalHistory.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\MedicalHistory.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\MedicalHistory.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:58:19.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MedicalProcedure.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\MedicalProcedure.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\MedicalProcedure.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\MedicalProcedure.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\MedicalProcedure.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:58:26.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "SpecializationsController.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\SpecializationsController.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\SpecializationsController.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\SpecializationsController.cs",
-              "RelativeToolTip": "HospitalManagement.API\\Controllers\\SpecializationsController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAmwDsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:14:48.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "HospitalDbContext.cs",
               "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Infrastructure\\Data\\HospitalDbContext.cs",
               "RelativeDocumentMoniker": "HospitalManagement.Infrastructure\\Data\\HospitalDbContext.cs",
               "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Infrastructure\\Data\\HospitalDbContext.cs",
               "RelativeToolTip": "HospitalManagement.Infrastructure\\Data\\HospitalDbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:19:45.6Z"
+              "WhenOpened": "2025-02-03T11:39:59.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HospitalizationReason.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\HospitalizationReason.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\HospitalizationReason.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\HospitalizationReason.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\HospitalizationReason.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:50:17.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HospitalizationReasonsController.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\HospitalizationReasonsController.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\HospitalizationReasonsController.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\HospitalizationReasonsController.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Controllers\\HospitalizationReasonsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:37:58.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IHospitalizationService.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\IHospitalizationService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\Interfaces\\IHospitalizationService.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\IHospitalizationService.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\Interfaces\\IHospitalizationService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:30:34.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HospitalizationService.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\HospitalizationService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\HospitalizationService.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\HospitalizationService.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\Services\\HospitalizationService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAA0wEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:30:28.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALcUAAAAAAAAAAA0wMkUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-03T11:28:33.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Program.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Program.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:27:47.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HospitalizationsController.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\HospitalizationsController.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\HospitalizationsController.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\HospitalizationsController.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Controllers\\HospitalizationsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:26:07.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\App.xaml.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\App.xaml.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:17:56.063Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Doctor.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Doctor.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Doctor.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Doctor.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA7wBAAAAAeAAAAAAAAAA==",
+              "Title": "HospitalizationView.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\HospitalizationView.xaml.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\Views\\HospitalizationView.xaml.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\HospitalizationView.xaml.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\Views\\HospitalizationView.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBBwAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:06:04.311Z"
+              "WhenOpened": "2025-02-03T11:09:27.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HospitalizationView.xaml",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\HospitalizationView.xaml",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\Views\\HospitalizationView.xaml",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\HospitalizationView.xaml",
+              "RelativeToolTip": "HospitalManagement.WPF\\Views\\HospitalizationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T11:09:16.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\App.xaml",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\App.xaml",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\App.xaml",
+              "RelativeToolTip": "HospitalManagement.WPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T11:06:15.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HospitalizationViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\ViewModels\\HospitalizationViewModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\ViewModels\\HospitalizationViewModel.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\ViewModels\\HospitalizationViewModel.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\ViewModels\\HospitalizationViewModel.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:20:59.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddHospitalizationViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\ViewModels\\AddHospitalizationViewModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\ViewModels\\AddHospitalizationViewModel.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\ViewModels\\AddHospitalizationViewModel.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\ViewModels\\AddHospitalizationViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:21:09.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAywBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:10:11.399Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "DoctorsController.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\DoctorsController.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\DoctorsController.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\Controllers\\DoctorsController.cs",
-              "RelativeToolTip": "HospitalManagement.API\\Controllers\\DoctorsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:08:17.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MedicalCardService.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\MedicalCardService.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\MedicalCardService.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\MedicalCardService.cs",
-              "RelativeToolTip": "HospitalManagement.Application\\Services\\MedicalCardService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBEAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:39:03.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SpecializationService.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\SpecializationService.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\SpecializationService.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\SpecializationService.cs",
-              "RelativeToolTip": "HospitalManagement.Application\\Services\\SpecializationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:38:27.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DoctorService.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\DoctorService.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\DoctorService.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\DoctorService.cs",
-              "RelativeToolTip": "HospitalManagement.Application\\Services\\DoctorService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAmwD4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:37:31.683Z"
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\MainWindow.xaml",
+              "RelativeToolTip": "HospitalManagement.WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T11:04:47.066Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "PatientService.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\PatientService.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\PatientService.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Services\\PatientService.cs",
-              "RelativeToolTip": "HospitalManagement.Application\\Services\\PatientService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAIwEEAAAAYAAAAAAAAAA==",
+              "Title": "EditConditionView.xaml",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\EditConditionView.xaml",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\Views\\EditConditionView.xaml",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\EditConditionView.xaml",
+              "RelativeToolTip": "HospitalManagement.WPF\\Views\\EditConditionView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T10:54:33.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EditConditionView.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\EditConditionView.xaml.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\Views\\EditConditionView.xaml.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\EditConditionView.xaml.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\Views\\EditConditionView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:36:11.681Z"
+              "WhenOpened": "2025-02-03T10:55:02.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:55:17.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditConditionViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\ViewModels\\EditConditionViewModel.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\ViewModels\\EditConditionViewModel.cs",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\ViewModels\\EditConditionViewModel.cs",
+              "RelativeToolTip": "HospitalManagement.WPF\\ViewModels\\EditConditionViewModel.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T10:46:49.389Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "IMedicalCardService.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\IMedicalCardService.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Application\\Interfaces\\IMedicalCardService.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\IMedicalCardService.cs",
-              "RelativeToolTip": "HospitalManagement.Application\\Interfaces\\IMedicalCardService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:14:04.628Z"
+              "Title": "AddHospitalizationView.xaml",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\AddHospitalizationView.xaml",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\Views\\AddHospitalizationView.xaml",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\AddHospitalizationView.xaml",
+              "RelativeToolTip": "HospitalManagement.WPF\\Views\\AddHospitalizationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T10:53:04.276Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "ISpecializationService.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\ISpecializationService.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Application\\Interfaces\\ISpecializationService.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\ISpecializationService.cs",
-              "RelativeToolTip": "HospitalManagement.Application\\Interfaces\\ISpecializationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:13:37.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IDoctorService.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\IDoctorService.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Application\\Interfaces\\IDoctorService.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\IDoctorService.cs",
-              "RelativeToolTip": "HospitalManagement.Application\\Interfaces\\IDoctorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:13:02.239Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Specialization.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Specialization.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Specialization.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Domain\\Entities\\Specialization.cs",
-              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Specialization.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T16:06:36.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IPatientService.cs",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\IPatientService.cs",
-              "RelativeDocumentMoniker": "HospitalManagement.Application\\Interfaces\\IPatientService.cs",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.Application\\Interfaces\\IPatientService.cs",
-              "RelativeToolTip": "HospitalManagement.Application\\Interfaces\\IPatientService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T13:35:01.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\appsettings.json",
-              "RelativeDocumentMoniker": "HospitalManagement.API\\appsettings.json",
-              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.API\\appsettings.json",
-              "RelativeToolTip": "HospitalManagement.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-29T13:16:13.694Z"
+              "Title": "AddHospitalizationView.xaml",
+              "DocumentMoniker": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\AddHospitalizationView.xaml",
+              "RelativeDocumentMoniker": "HospitalManagement.WPF\\Views\\AddHospitalizationView.xaml",
+              "ToolTip": "C:\\Projects\\Visual Studio\\HospitalManagement\\HospitalManagement\\HospitalManagement.WPF\\Views\\AddHospitalizationView.xaml",
+              "RelativeToolTip": "HospitalManagement.WPF\\Views\\AddHospitalizationView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-03T10:46:37.188Z"
             }
           ]
         }

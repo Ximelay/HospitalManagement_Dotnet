@@ -23,6 +23,8 @@ namespace HospitalManagement.Infrastructure.Data
         public DbSet<Diagnosis> Diagnoses { get; set; }
         public DbSet<MedicalProcedure> MedicalProcedures { get; set; }
         public DbSet<Hospitalization> Hospitalizations { get; set; }
+        public DbSet<HospitalizationReason> HospitalizationReasons { get; set; } // Добавьте этот DbSet
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
